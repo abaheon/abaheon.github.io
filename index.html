@@ -1,0 +1,839 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ubit Store</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <!--link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap-theme.min.css" rel="stylesheet"-->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.1.0/css/swiper.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+    <nav id="navigation" class="navbar navbar-inverse navbar-static-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" data-toggle="collapse" data-target="#navigation-menu" class="navbar-toggle collapsed">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="#" class="navbar-brand"><img src="img/ubit-clothes.png" height="50" alt="Ubit Store - Clothes"></a>
+            </div>
+
+            <div id="navigation-menu" class="collapse navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="#">Etalase</a></li>
+                    <li><a href="#">Kebijakan</a></li>
+                    <li><a href="#">Kontak</a></li>
+                </ul>
+
+                <form class="navbar-form">
+                    <div class="form-group">
+                        <div class="input-group">
+                            <input name="keyword" type="search" value="" placeholder="Cari produk" class="form-control input-sm">
+
+                            <span class="input-group-btn">
+                                <button type="submit" class="btn btn-sm btn-primary"><span class="glyphicon glyphicon-search"></span></button>
+                            </span>
+                        </div>
+
+                        <ul class="list-inline text-right">
+                            <li><a href="#">Pakaian Wanita</a></li>
+                            <li><a href="#">Pakaian Pria</a></li>
+                            <li><a href="#">Pakaian Anak</a></li>
+                            <li><a href="#">Aksesoris</a></li>
+                        </ul>
+                    </div>
+                </form>
+            </div><!-- /#navigation-menu -->
+        </div>
+    </nav><!-- /#navigation -->
+
+    <div id="banner">
+        <div class="container">
+            <div id="banner-slides" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="item active"><img src="img/banner/baner_01.jpg" alt="Lorem ipsum"></div>
+                    <div class="item"><img src="img/banner/banner_02.jpg" alt="Lorem ipsum"></div>
+                    <div class="item"><img src="img/banner/banner_03.jpg" alt="Lorem ipsum"></div>
+                </div>
+
+                <ol class="carousel-indicators">
+                    <li data-target="#banner-slides" data-slide-to="0" class="active"></li>
+                    <li data-target="#banner-slides" data-slide-to="1"></li>
+                    <li data-target="#banner-slides" data-slide-to="2"></li>
+                </ol>
+
+                <a href="#banner-slides" class="left carousel-control" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                </a>
+                <a href="#banner-slides" class="right carousel-control" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                </a>
+            </div><!-- /#banner-slides -->
+        </div>
+    </div><!-- /#banner -->
+
+    <main id="main">
+        <div class="container">
+            <div class="row">
+                <div id="content" class="col-sm-9 col-sm-push-3 col-md-10 col-md-push-2">
+                    <nav id="breadcrumb">
+                        <ul class="breadcrumb">
+                            <li class="disabled"><a href="#">Beranda</a></li>
+                            <li><a href="#">Produk</a></li>
+                            <li><a href="#">Pakaian Wanita</a></li>
+                            <li><a href="#">Baju</a></li>
+                            <li class="active">Gamis</li>
+                        </ul>
+                    </nav><!-- /#breadcrumb -->
+
+                    <article id="single-product" class="block">
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <div id="single-product-slides" class="carousel slide" data-ride="carousel">
+                                    <div class="carousel-inner">
+                                        <div class="item active"><img src="products/pria/1.jpg" alt="Consectetur adipiscing elit"></div>
+                                        <div class="item"><img src="products/pria/1-a.jpg" alt="Corrupti quos dolores"></div>
+                                        <div class="item"><img src="products/pria/1-b.jpg" alt="Eiusmod tempor incididunt elit"></div>
+                                        <div class="item"><img src="products/pria/1-c.jpg" alt="Dolore magna aliqua"></div>
+                                    </div>
+
+                                    <div class="carousel-indicators row">
+                                        <div data-target="#single-product-slides" data-slide-to="0" class="col-xs-3 active"><img src="products/pria/1-thumbnail.jpg" alt="Lorem ipsum"></div>
+
+                                        <div data-target="#single-product-slides" data-slide-to="1" class="col-xs-3"><img src="products/pria/1-a-thumbnail.jpg" alt="Lorem ipsum"></div>
+
+                                        <div data-target="#single-product-slides" data-slide-to="2" class="col-xs-3"><img src="products/pria/1-b-thumbnail.jpg" alt="Lorem ipsum"></div>
+
+                                        <div data-target="#single-product-slides" data-slide-to="3" class="col-xs-3"><img src="products/pria/1-c-thumbnail.jpg" alt="Lorem ipsum"></div>
+                                    </div>
+                                </div><!-- /#single-product-slides -->
+                            </div>
+
+                            <div class="col-sm-8">
+                                <header class="page-header">
+                                    <h1>Lorem ipsum dolor sit amet</h1>
+                                </header>
+
+                                <div class="clearfix">
+                                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
+
+                                    <p>Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus.</p>
+
+                                    <table class="table table-bordered table-condensed">
+                                        <tr>
+                                            <th class="active nowrap">Description lists</th>
+                                            <td>A description list is perfect for defining terms</td>
+                                        </tr>
+                                        <tr>
+                                            <th class="active nowrap">Euismod</th>
+                                            <td>Vestibulum id ligula porta felis euismod semper eget lacinia odio sem nec elit. Donec id elit non mi porta gravida at eget metus.</td>
+                                        </tr>
+                                        <tr>
+                                            <th class="active nowrap">Malesuada porta</th>
+                                            <td>Etiam porta sem malesuada magna mollis euismod</td>
+                                        </tr>
+                                        <tr>
+                                            <th class="active nowrap">Felis euismod</th>
+                                            <td>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</td>
+                                        </tr>
+                                    </table>
+
+                                    <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.</p>
+
+                                    <div class="alert alert-warning">
+                                        <p>Kunjungi lapak kami di <a href="#">Tokopedia</a> dan <a href="#">Bukalapak</a> atau hubungi CS melalui <a href="#">WhatsApp</a>. Kami tidak membuka gerai offline. Silahkan baca <a href="#">kebijakan</a> untuk informasi lebih lanjut.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </article><!-- /#single-product -->
+
+                    <div id="related-products" class="product-slider block">
+                        <div class="clearfix">
+                            <div class="pull-left">
+                                <p class="block-title"><strong>Mungkin Anda Suka</strong>
+                            </div>
+
+                            <div class="pull-right">
+                                <button type="button" class="swiper-left btn btn-xs btn-success"><span class="glyphicon glyphicon-chevron-left"></span></button>
+                                <button type="button" class="swiper-right btn btn-xs btn-success"><span class="glyphicon glyphicon-chevron-right"></span></button>
+                            </div>
+                        </div>
+
+                        <div class="swiper-container">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide thumbnail">
+                                    <a href="#">
+                                        <figure><img src="products/pria/1.jpg" alt="Consectetur adipiscing elit"></figure>
+                                        <div class="caption">
+                                            <p class="kode">JK 135</p>
+                                            <p><strong>Consectetur adipiscing elit</strong></p>
+                                            <p class="harga"><strike>Rp 50.000</strike>Rp 123.000</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide thumbnail">
+                                    <a href="#">
+                                        <figure><img src="products/pria/2.jpg" alt="Corrupti quos dolores"></figure>
+                                        <div class="sold-out"></div>
+                                        <div class="best-seller"></div>
+                                        <div class="caption">
+                                            <p class="kode">JK 135</p>
+                                            <p><strong>Corrupti quos dolores</strong></p>
+                                            <p class="harga"><strike>Rp 50.000</strike>Rp 123.000</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide thumbnail">
+                                    <a href="#">
+                                        <figure><img src="products/pria/3.jpg" alt="Eiusmod tempor incididunt"></figure>
+                                        <div class="caption">
+                                            <p class="kode">JK 135</p>
+                                            <p><strong>Eiusmod tempor incididunt</strong></p>
+                                            <p class="harga"><strike>Rp 50.000</strike>Rp 123.000</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide thumbnail">
+                                    <a href="#">
+                                        <figure><img src="products/pria/4.jpg" alt="Dolore magna aliqua"></figure>
+                                        <div class="caption">
+                                            <p class="kode">JK 135</p>
+                                            <p><strong>Dolore magna aliqua</strong></p>
+                                            <p class="harga"><strike>Rp 50.000</strike>Rp 123.000</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide thumbnail">
+                                    <a href="#">
+                                        <figure><img src="products/pria/5.jpg" alt="Praesentium voluptatum deleniti"></figure>
+                                        <div class="caption">
+                                            <p class="kode">JK 135</p>
+                                            <p><strong>Praesentium voluptatum deleniti</strong></p>
+                                            <p class="harga"><strike>Rp 50.000</strike>Rp 123.000</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide thumbnail">
+                                    <a href="#">
+                                        <figure><img src="products/pria/6.jpg" alt="Molestias excepturi sint"></figure>
+                                        <div class="caption">
+                                            <p class="kode">JK 135</p>
+                                            <p><strong>Molestias excepturi sint</strong></p>
+                                            <p class="harga"><strike>Rp 50.000</strike>Rp 123.000</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide thumbnail">
+                                    <a href="#">
+                                        <figure><img src="products/pria/7.jpg" alt="Soluta nobis est eligendi"></figure>
+                                        <div class="caption">
+                                            <p class="kode">JK 135</p>
+                                            <p><strong>Soluta nobis est eligendi</strong></p>
+                                            <p class="harga"><strike>Rp 50.000</strike>Rp 123.000</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide thumbnail">
+                                    <a href="#">
+                                        <figure><img src="products/pria/8.jpg" alt="Nam libero tempore"></figure>
+                                        <div class="caption">
+                                            <p class="kode">JK 135</p>
+                                            <p><strong>Nam libero tempore</strong></p>
+                                            <p class="harga"><strike>Rp 50.000</strike>Rp 123.000</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide thumbnail">
+                                    <a href="#">
+                                        <figure><img src="products/pria/9.jpg" alt="Rerum hic tenetur sapiente"></figure>
+                                        <div class="caption">
+                                            <p class="kode">JK 135</p>
+                                            <p><strong>Rerum hic tenetur sapiente</strong></p>
+                                            <p class="harga"><strike>Rp 50.000</strike>Rp 123.000</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide thumbnail">
+                                    <a href="#">
+                                        <figure><img src="products/pria/10.jpg" alt="Voluptatibus maiores alias"></figure>
+                                        <div class="caption">
+                                            <p class="kode">JK 135</p>
+                                            <p><strong>Voluptatibus maiores alias</strong></p>
+                                            <p class="harga"><strike>Rp 50.000</strike>Rp 123.000</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide thumbnail">
+                                    <a href="#">
+                                        <figure><img src="products/pria/11.jpg" alt="Perferendis doloribus asperiores"></figure>
+                                        <div class="caption">
+                                            <p class="kode">JK 135</p>
+                                            <p><strong>Perferendis doloribus asperiores</strong></p>
+                                            <p class="harga"><strike>Rp 50.000</strike>Rp 123.000</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide thumbnail">
+                                    <a href="#">
+                                        <figure><img src="products/pria/12.jpg" alt="Accusamus et iusto odio"></figure>
+                                        <div class="caption">
+                                            <p class="kode">JK 135</p>
+                                            <p><strong>Accusamus et iusto odio</strong></p>
+                                            <p class="harga"><strike>Rp 50.000</strike>Rp 123.000</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- /#related-products -->
+
+                    <div id="new-products" class="product-slider block">
+                        <div class="clearfix">
+                            <div class="pull-left">
+                                <p class="block-title"><strong>Produk Terbaru</strong>
+                            </div>
+
+                            <div class="pull-right">
+                                <button type="button" class="swiper-left btn btn-xs btn-success"><span class="glyphicon glyphicon-chevron-left"></span></button>
+                                <button type="button" class="swiper-right btn btn-xs btn-success"><span class="glyphicon glyphicon-chevron-right"></span></button>
+                            </div>
+                        </div>
+
+                        <div class="swiper-container">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide thumbnail">
+                                    <a href="#">
+                                        <figure><img src="products/pria/1.jpg" alt="Consectetur adipiscing elit"></figure>
+                                        <div class="caption">
+                                            <p class="kode">JK 135</p>
+                                            <p><strong>Consectetur adipiscing elit</strong></p>
+                                            <p class="harga"><strike>Rp 50.000</strike>Rp 123.000</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide thumbnail">
+                                    <a href="#">
+                                        <figure><img src="products/pria/2.jpg" alt="Corrupti quos dolores"></figure>
+                                        <div class="sold-out"></div>
+                                        <div class="best-seller"></div>
+                                        <div class="caption">
+                                            <p class="kode">JK 135</p>
+                                            <p><strong>Corrupti quos dolores</strong></p>
+                                            <p class="harga"><strike>Rp 50.000</strike>Rp 123.000</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide thumbnail">
+                                    <a href="#">
+                                        <figure><img src="products/pria/3.jpg" alt="Eiusmod tempor incididunt"></figure>
+                                        <div class="caption">
+                                            <p class="kode">JK 135</p>
+                                            <p><strong>Eiusmod tempor incididunt</strong></p>
+                                            <p class="harga"><strike>Rp 50.000</strike>Rp 123.000</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide thumbnail">
+                                    <a href="#">
+                                        <figure><img src="products/pria/4.jpg" alt="Dolore magna aliqua"></figure>
+                                        <div class="caption">
+                                            <p class="kode">JK 135</p>
+                                            <p><strong>Dolore magna aliqua</strong></p>
+                                            <p class="harga"><strike>Rp 50.000</strike>Rp 123.000</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide thumbnail">
+                                    <a href="#">
+                                        <figure><img src="products/pria/5.jpg" alt="Praesentium voluptatum deleniti"></figure>
+                                        <div class="caption">
+                                            <p class="kode">JK 135</p>
+                                            <p><strong>Praesentium voluptatum deleniti</strong></p>
+                                            <p class="harga"><strike>Rp 50.000</strike>Rp 123.000</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide thumbnail">
+                                    <a href="#">
+                                        <figure><img src="products/pria/6.jpg" alt="Molestias excepturi sint"></figure>
+                                        <div class="caption">
+                                            <p class="kode">JK 135</p>
+                                            <p><strong>Molestias excepturi sint</strong></p>
+                                            <p class="harga"><strike>Rp 50.000</strike>Rp 123.000</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide thumbnail">
+                                    <a href="#">
+                                        <figure><img src="products/pria/7.jpg" alt="Soluta nobis est eligendi"></figure>
+                                        <div class="caption">
+                                            <p class="kode">JK 135</p>
+                                            <p><strong>Soluta nobis est eligendi</strong></p>
+                                            <p class="harga"><strike>Rp 50.000</strike>Rp 123.000</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide thumbnail">
+                                    <a href="#">
+                                        <figure><img src="products/pria/8.jpg" alt="Nam libero tempore"></figure>
+                                        <div class="caption">
+                                            <p class="kode">JK 135</p>
+                                            <p><strong>Nam libero tempore</strong></p>
+                                            <p class="harga"><strike>Rp 50.000</strike>Rp 123.000</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide thumbnail">
+                                    <a href="#">
+                                        <figure><img src="products/pria/9.jpg" alt="Rerum hic tenetur sapiente"></figure>
+                                        <div class="caption">
+                                            <p class="kode">JK 135</p>
+                                            <p><strong>Rerum hic tenetur sapiente</strong></p>
+                                            <p class="harga"><strike>Rp 50.000</strike>Rp 123.000</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide thumbnail">
+                                    <a href="#">
+                                        <figure><img src="products/pria/10.jpg" alt="Voluptatibus maiores alias"></figure>
+                                        <div class="caption">
+                                            <p class="kode">JK 135</p>
+                                            <p><strong>Voluptatibus maiores alias</strong></p>
+                                            <p class="harga"><strike>Rp 50.000</strike>Rp 123.000</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide thumbnail">
+                                    <a href="#">
+                                        <figure><img src="products/pria/11.jpg" alt="Perferendis doloribus asperiores"></figure>
+                                        <div class="caption">
+                                            <p class="kode">JK 135</p>
+                                            <p><strong>Perferendis doloribus asperiores</strong></p>
+                                            <p class="harga"><strike>Rp 50.000</strike>Rp 123.000</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide thumbnail">
+                                    <a href="#">
+                                        <figure><img src="products/pria/12.jpg" alt="Accusamus et iusto odio"></figure>
+                                        <div class="caption">
+                                            <p class="kode">JK 135</p>
+                                            <p><strong>Accusamus et iusto odio</strong></p>
+                                            <p class="harga"><strike>Rp 50.000</strike>Rp 123.000</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- /#new-products -->
+
+                    <div class="product-list block">
+                        <nav id="breadcrumb">
+                            <ul class="breadcrumb">
+                                <li class="disabled"><a href="#">Beranda</a></li>
+                                <li><a href="#">Produk</a></li>
+                                <li><a href="#">Pakaian Wanita</a></li>
+                                <li><a href="#">Baju</a></li>
+                                <li class="active">Gamis</li>
+                            </ul>
+                        </nav><!-- /#breadcrumb -->
+
+                        <div class="row product-cards">
+                            <div class="col-xs-6 col-sm-4 col-md-3">
+                                <div class="thumbnail">
+                                    <a href="#">
+                                        <figure><img src="products/pria/1.jpg" alt="Consectetur adipiscing elit"></figure>
+                                        <div class="caption">
+                                            <p class="kode">JK 135</p>
+                                            <p><strong>Consectetur adipiscing elit</strong></p>
+                                            <p class="harga"><strike>Rp 50.000</strike>Rp 123.000</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-xs-6 col-sm-4 col-md-3">
+                                <div class="thumbnail">
+                                    <a href="#">
+                                        <figure><img src="products/pria/2.jpg" alt="Corrupti quos dolores"></figure>
+                                        <div class="sold-out"></div>
+                                        <div class="best-seller"></div>
+                                        <div class="caption">
+                                            <p class="kode">JK 135</p>
+                                            <p><strong>Corrupti quos dolores</strong></p>
+                                            <p class="harga"><strike>Rp 50.000</strike>Rp 123.000</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-xs-6 col-sm-4 col-md-3">
+                                <div class="thumbnail">
+                                    <a href="#">
+                                        <figure><img src="products/pria/3.jpg" alt="Eiusmod tempor incididunt"></figure>
+                                        <div class="caption">
+                                            <p class="kode">JK 135</p>
+                                            <p><strong>Eiusmod tempor incididunt</strong></p>
+                                            <p class="harga"><strike>Rp 50.000</strike>Rp 123.000</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-xs-6 col-sm-4 col-md-3 product-card hidden-sm">
+                                <div class="thumbnail">
+                                    <a href="#">
+                                        <figure><img src="products/pria/4.jpg" alt="Dolore magna aliqua"></figure>
+                                        <div class="caption">
+                                            <p class="kode">JK 135</p>
+                                            <p><strong>Dolore magna aliqua</strong></p>
+                                            <p class="harga"><strike>Rp 50.000</strike>Rp 123.000</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-list block">
+                        <p class="block-title"><strong>Pakaian Wanita</strong></p>
+
+                        <div class="row product-cards">
+                            <div class="col-xs-6 col-sm-4 col-md-3">
+                                <div class="thumbnail">
+                                    <a href="#">
+                                        <figure><img src="products/wanita/1.jpg" alt="Consectetur adipiscing elit"></figure>
+                                        <div class="caption">
+                                            <p class="kode">JK 135</p>
+                                            <p><strong>Consectetur adipiscing elit</strong></p>
+                                            <p class="harga"><strike>Rp 50.000</strike>Rp 123.000</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-xs-6 col-sm-4 col-md-3">
+                                <div class="thumbnail">
+                                    <a href="#">
+                                        <figure><img src="products/wanita/2.jpg" alt="Corrupti quos dolores"></figure>
+                                        <div class="sold-out"></div>
+                                        <div class="best-seller"></div>
+                                        <div class="caption">
+                                            <p class="kode">JK 135</p>
+                                            <p><strong>Corrupti quos dolores</strong></p>
+                                            <p class="harga"><strike>Rp 50.000</strike>Rp 123.000</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-xs-6 col-sm-4 col-md-3">
+                                <div class="thumbnail">
+                                    <a href="#">
+                                        <figure><img src="products/wanita/3.jpg" alt="Eiusmod tempor incididunt"></figure>
+                                        <div class="caption">
+                                            <p class="kode">JK 135</p>
+                                            <p><strong>Eiusmod tempor incididunt</strong></p>
+                                            <p class="harga"><strike>Rp 50.000</strike>Rp 123.000</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-xs-6 col-sm-4 col-md-3 hidden-sm">
+                                <div class="thumbnail">
+                                    <a href="#">
+                                        <figure><img src="products/wanita/4.jpg" alt="Dolore magna aliqua"></figure>
+                                        <div class="caption">
+                                            <p class="kode">JK 135</p>
+                                            <p><strong>Dolore magna aliqua</strong></p>
+                                            <p class="harga"><strike>Rp 50.000</strike>Rp 123.000</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-list block">
+                        <p class="block-title"><strong>Pakaian Pria</strong></p>
+
+                        <div class="row product-cards">
+                            <div class="col-xs-6 col-sm-4 col-md-3">
+                                <div class="thumbnail">
+                                    <a href="#">
+                                        <figure><img src="products/pria/1.jpg" alt="Consectetur adipiscing elit"></figure>
+                                        <div class="caption">
+                                            <p class="kode">JK 135</p>
+                                            <p><strong>Consectetur adipiscing elit</strong></p>
+                                            <p class="harga"><strike>Rp 50.000</strike>Rp 123.000</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-xs-6 col-sm-4 col-md-3">
+                                <div class="thumbnail">
+                                    <a href="#">
+                                        <figure><img src="products/pria/2.jpg" alt="Corrupti quos dolores"></figure>
+                                        <div class="sold-out"></div>
+                                        <div class="best-seller"></div>
+                                        <div class="caption">
+                                            <p class="kode">JK 135</p>
+                                            <p><strong>Corrupti quos dolores</strong></p>
+                                            <p class="harga"><strike>Rp 50.000</strike>Rp 123.000</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-xs-6 col-sm-4 col-md-3">
+                                <div class="thumbnail">
+                                    <a href="#">
+                                        <figure><img src="products/pria/3.jpg" alt="Eiusmod tempor incididunt"></figure>
+                                        <div class="caption">
+                                            <p class="kode">JK 135</p>
+                                            <p><strong>Eiusmod tempor incididunt</strong></p>
+                                            <p class="harga"><strike>Rp 50.000</strike>Rp 123.000</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-xs-6 col-sm-4 col-md-3 hidden-sm">
+                                <div class="thumbnail">
+                                    <a href="#">
+                                        <figure><img src="products/pria/4.jpg" alt="Dolore magna aliqua"></figure>
+                                        <div class="caption">
+                                            <p class="kode">JK 135</p>
+                                            <p><strong>Dolore magna aliqua</strong></p>
+                                            <p class="harga"><strike>Rp 50.000</strike>Rp 123.000</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-list block">
+                        <p class="block-title"><strong>Pakaian Anak</strong></p>
+
+                        <div class="row product-cards">
+                            <div class="col-xs-6 col-sm-4 col-md-3">
+                                <div class="thumbnail">
+                                    <a href="#">
+                                        <figure><img src="products/anak/1.jpg" alt="Consectetur adipiscing elit"></figure>
+                                        <div class="caption">
+                                            <p class="kode">JK 135</p>
+                                            <p><strong>Consectetur adipiscing elit</strong></p>
+                                            <p class="harga"><strike>Rp 50.000</strike>Rp 123.000</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-xs-6 col-sm-4 col-md-3">
+                                <div class="thumbnail">
+                                    <a href="#">
+                                        <figure><img src="products/anak/2.jpg" alt="Corrupti quos dolores"></figure>
+                                        <div class="sold-out"></div>
+                                        <div class="best-seller"></div>
+                                        <div class="caption">
+                                            <p class="kode">JK 135</p>
+                                            <p><strong>Corrupti quos dolores</strong></p>
+                                            <p class="harga"><strike>Rp 50.000</strike>Rp 123.000</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-xs-6 col-sm-4 col-md-3">
+                                <div class="thumbnail">
+                                    <a href="#">
+                                        <figure><img src="products/anak/3.jpg" alt="Eiusmod tempor incididunt"></figure>
+                                        <div class="caption">
+                                            <p class="kode">JK 135</p>
+                                            <p><strong>Eiusmod tempor incididunt</strong></p>
+                                            <p class="harga"><strike>Rp 50.000</strike>Rp 123.000</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-xs-6 col-sm-4 col-md-3 hidden-sm">
+                                <div class="thumbnail">
+                                    <a href="#">
+                                        <figure><img src="products/anak/4.jpg" alt="Dolore magna aliqua"></figure>
+                                        <div class="caption">
+                                            <p class="kode">JK 135</p>
+                                            <p><strong>Dolore magna aliqua</strong></p>
+                                            <p class="harga"><strike>Rp 50.000</strike>Rp 123.000</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-list block">
+                        <p class="block-title"><strong>Aksesoris</strong></p>
+
+                        <div class="row product-cards">
+                            <div class="col-xs-6 col-sm-4 col-md-3">
+                                <div class="thumbnail">
+                                    <a href="#">
+                                        <figure><img src="products/aksesoris/1.jpg" alt="Consectetur adipiscing elit"></figure>
+                                        <div class="caption">
+                                            <p class="kode">JK 135</p>
+                                            <p><strong>Consectetur adipiscing elit</strong></p>
+                                            <p class="harga"><strike>Rp 50.000</strike>Rp 123.000</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-xs-6 col-sm-4 col-md-3">
+                                <div class="thumbnail">
+                                    <a href="#">
+                                        <figure><img src="products/aksesoris/2.jpg" alt="Corrupti quos dolores"></figure>
+                                        <div class="sold-out"></div>
+                                        <div class="best-seller"></div>
+                                        <div class="caption">
+                                            <p class="kode">JK 135</p>
+                                            <p><strong>Corrupti quos dolores</strong></p>
+                                            <p class="harga"><strike>Rp 50.000</strike>Rp 123.000</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-xs-6 col-sm-4 col-md-3">
+                                <div class="thumbnail">
+                                    <a href="#">
+                                        <figure><img src="products/aksesoris/3.jpg" alt="Eiusmod tempor incididunt"></figure>
+                                        <div class="caption">
+                                            <p class="kode">JK 135</p>
+                                            <p><strong>Eiusmod tempor incididunt</strong></p>
+                                            <p class="harga"><strike>Rp 50.000</strike>Rp 123.000</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-xs-6 col-sm-4 col-md-3 hidden-sm">
+                                <div class="thumbnail">
+                                    <a href="#">
+                                        <figure><img src="products/aksesoris/4.jpg" alt="Dolore magna aliqua"></figure>
+                                        <div class="caption">
+                                            <p class="kode">JK 135</p>
+                                            <p><strong>Dolore magna aliqua</strong></p>
+                                            <p class="harga"><strike>Rp 50.000</strike>Rp 123.000</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="alert alert-warning">
+                        <p>Kunjungi lapak kami di <a href="#">Tokopedia</a> dan <a href="#">Bukalapak</a> atau hubungi CS melalui <a href="#">WhatsApp</a>. Kami tidak membuka gerai offline. Silahkan baca <a href="#">kebijakan</a> untuk informasi lebih lanjut.</p>
+                    </div>
+                </div><!-- /#content -->
+
+                <div id="sidebar" class="col-sm-3 col-sm-pull-9 col-md-2 col-md-pull-10">
+                    <div class="row equal">
+                        <div class="aside col-xs-6 col-sm-12">
+                            <p class="block-title"><strong>Pakaian Wanita</strong></p>
+
+                            <ul class="list-unstyled">
+                                <li><a href="#">Baju</a></li>
+                                <li><a href="#">Celana</a></li>
+                                <li><a href="#">Dompet</a></li>
+                                <li><a href="#">Jaket</a></li>
+                                <li><a href="#">Jilbab</a></li>
+                                <li><a href="#">Kaos</a></li>
+                                <li><a href="#">Kemeja</a></li>
+                                <li><a href="#">Mukena</a></li>
+                                <li><a href="#">Sandal</a></li>
+                                <li><a href="#">Sepatu</a></li>
+                                <li><a href="#">Sweater</a></li>
+                                <li><a href="#">Tas</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="aside col-xs-6 col-sm-12">
+                            <p class="block-title"><strong>Pakaian Pria</strong></p>
+
+                            <ul class="list-unstyled">
+                                <li><a href="#">Baju Muslim</a></li>
+                                <li><a href="#">Celana</a></li>
+                                <li><a href="#">Dompet</a></li>
+                                <li><a href="#">Jaket</a></li>
+                                <li><a href="#">Kaos</a></li>
+                                <li><a href="#">Kemeja</a></li>
+                                <li><a href="#">Rompi</a></li>
+                                <li><a href="#">Sandal</a></li>
+                                <li><a href="#">Sepatu</a></li>
+                                <li><a href="#">Sweater</a></li>
+                                <li><a href="#">Tas</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="aside col-xs-6 col-sm-12">
+                            <p class="block-title"><strong>Pakaian Anak</strong></p>
+
+                            <ul class="list-unstyled">
+                                <li><a href="#">Celana Anak</a></li>
+                                <li><a href="#">Dress Anak</a></li>
+                                <li><a href="#">Jaket Anak</a></li>
+                                <li><a href="#">Kaos Anak</a></li>
+                                <li><a href="#">Kemeja Anak</a></li>
+                                <li><a href="#">Pakaian Muslim Anak</a></li>
+                                <li><a href="#">Sandal Anak</a></li>
+                                <li><a href="#">Sepatu Anak</a></li>
+                                <li><a href="#">Tas Anak</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="aside col-xs-6 col-sm-12">
+                            <p class="block-title"><strong>Aksesoris</strong></p>
+
+                            <ul class="list-unstyled">
+                                <li><a href="#">Ikat Pinggang</a></li>
+                                <li><a href="#">Sarung Tangan</a></li>
+                                <li><a href="#">Topi</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div><!-- /#sidebar -->
+            </div>
+
+            <div id="content">
+                <article id="single-post">
+                    <header class="page-header">
+                        <h1>Lorem ipsum dolor sit amet</h1>
+                    </header>
+
+                    <div class="clearfix">
+                        <p>Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+
+                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
+
+                        <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.</p>
+                    </div>
+                </article><!-- /#single-post -->
+            </div><!-- /#content -->
+        </div>
+    </main><!-- /#main -->
+
+    <footer id="copyright">
+        <div class="container text-center">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+
+            <p>Copyright 1999-2018 by Refsnes Data. All Rights Reserved.</p>
+        </div>
+    </footer><!-- /#copyright -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.1.0/js/swiper.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
