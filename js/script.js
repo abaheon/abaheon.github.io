@@ -7,6 +7,9 @@ $(function() {
             slidesPerView: $(window).width() >= 768 ? 4 : 2,
             spaceBetween: 10,
             direction: 'horizontal',
+            /* */
+            autoHeight: true,
+            /* */
             loop: true,
             navigation: {
                 prevEl: '.swiper-left',
@@ -14,4 +17,8 @@ $(function() {
             },
         });
     }
+
+    //if ($('[data-toggle="tooltip"]').length) {
+        $('[data-toggle="tooltip"]').tooltip();
+    //}
 });
